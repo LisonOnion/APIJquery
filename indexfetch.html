@@ -32,7 +32,7 @@
         </div>
       </nav>
 
-      <button id="bouton1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ajouter une bière</button>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ajouter une bière</button>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -45,13 +45,10 @@
       </div>
       <div class="modal-body">
         <form>
-            <div id="divid" class="form-group">
-                <label for="recipient-name" class="col-form-label">Id :</label>
-                <input type="text" class="form-control" id="id">
-              </div>
           <div class="form-group">
             <label for="recipient-name" class="col-form-label">Nom :</label>
             <input type="text" class="form-control" id="nom">
+        
           </div>
           <div class="form-group">
             <label for="message-text" class="col-form-label">Couleur :</label>
@@ -81,7 +78,7 @@
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
         <button id="boutonAdd" type="button" class="btn btn-primary">Ajouter</button>
         <button id="boutonModif" type="button" class="btn btn-success">Modifier</button>
-        <button id="boutonDelete" type="button" class="btn btn-danger">Supprimer</button>
+        <button type="button" class="btn btn-danger">Supprimer</button>
       </div>
     </div>
   </div>
@@ -95,7 +92,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr id="trait">
          
             
          
@@ -115,5 +112,5 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+<script src="scriptfetch.js"></script>
 </html>
